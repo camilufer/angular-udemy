@@ -28,7 +28,7 @@ export class FrutaComponent{
 
     ngOnInit(){
         this.cambiarNombre();
-        this.cambiarEdad(45);
+        this.cambiarEdad(7);
         console.log(this.nombre + ' ' + this.edad);
 
         //variables y alcance
@@ -48,7 +48,7 @@ export class FrutaComponent{
     }
 
     cambiarNombre(){
-        this.nombre = 'juan lopez';
+        this.nombre = 'Alonso';
     }
 
     cambiarEdad(edad){

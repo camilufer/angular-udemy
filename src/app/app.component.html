@@ -1,9 +1,16 @@
-Plantilla de fichero html
+
   <h1>
    {{ title }}
   </h1>
   <hr>
+  <nav>
+    <a [routerLink]="['/pagina-principal']" [routerLinkActive]="['activado']">home</a>
+    <a [routerLink]="['/fruta']" [routerLinkActive]="['activado']">fruta</a>
+    <a [routerLink]="['/empleado']" [routerLinkActive]="['activado']">empleado</a>
+    <a [routerLink]="['/contacto']" [routerLinkActive]="['activado']">contacto</a>
+  </nav>
+  <hr>
   <!--<fruta></fruta>-->
-  <empleado-tag></empleado-tag>
-
+  
+<router-outlet></router-outlet>
 
