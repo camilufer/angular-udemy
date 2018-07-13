@@ -1,0 +1,6 @@
+<textarea class="form-control" id="caracter" maxlength="50"
+    type="number" name="title" [(ngModel)]="titleModel"></textarea>
+<span class="caracteres" *ngIf="titleModel?.length >= 0">
+          {{maximo - titleModel?.length}}
+</span>
+
