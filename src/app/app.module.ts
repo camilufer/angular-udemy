@@ -10,7 +10,8 @@ import { EmpleadoComponent } from './empleado/empleado.component';
 import { HomeComponent } from './home/home.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { PruebaComponent } from './prueba/prueba.component';
-
+import { HeroesComponent } from './heroes/heroes.component';
+import { ListaComponent } from './lista/lista.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,9 @@ import { PruebaComponent } from './prueba/prueba.component';
     EmpleadoComponent,
     HomeComponent,
     ContactoComponent,
-    PruebaComponent
+    PruebaComponent,
+    HeroesComponent,
+    ListaComponent
 
   ],
   imports: [

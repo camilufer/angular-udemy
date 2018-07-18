@@ -10,8 +10,9 @@
 <pre [style.border]="color_seleccionado == 'red' ? '5px solid black' : '1px solid green'"
 [ngClass]="{
     fondoAzul: color_seleccionado == 'blue',
-    fondoVerde: color_seleccionado == 'green'
-    
+    fondoVerde: color_seleccionado == 'green',
+    fondoRosa: color_seleccionado == 'pink'
+
 }"
 >
     <strong>Color elegido:</strong>
@@ -26,7 +27,7 @@
     }"></div>
 <div style='clear:both'></div>
 
-<hr> 
+<hr>
 <h3>colores switch</h3>
 <ul [ngSwitch]='color'>
     <li *ngSwitchCase="'pink'" [ngStyle]="{'background':color, 'color':'white', 'padding': '20px'}">Es de color Rosa</li>
@@ -48,7 +49,7 @@
         <li>{{trabajadores[1].edad}}</li>
         <li>{{trabajadores[1].cargo}}</li>
         <li *ngIf='trabajadores[0].contratado == true'>Está contratado</li>
-        <li *ngIf='trabajadores[0].contratado == false'>No está contratado</li>   
+        <li *ngIf='trabajadores[0].contratado == false'>No está contratado</li>
     </ul>
 </div>
 
@@ -74,7 +75,7 @@
             <li>{{empleado.edad}}</li>
             <li>{{empleado.cargo}}</li>
             <li *ngIf='empleado.contratado == true'>Está contratado</li>
-            <li *ngIf='empleado.contratado == false'>No está contratado</li> 
+            <li *ngIf='empleado.contratado == false'>No está contratado</li>
         </ul>
     </li>
 </ul>

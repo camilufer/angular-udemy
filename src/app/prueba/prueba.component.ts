@@ -7,7 +7,7 @@ import {Component, NgModule} from '@angular/core';
 
 export class PruebaComponent {
     maximo = '50';
-    titleModel = '';
+    optionalMsj = '';
 }
 
 

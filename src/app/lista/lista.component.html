@@ -1,0 +1,14 @@
+
+<p>{{title}}</p>
+
+<h1>{{miscontactos[0]}}</h1>
+
+<h1>{{miscontactos[1]}}</h1>
+<h1>{{miscontactos[2]}}</h1>
+
+<ul>
+  <li *ngFor="let contacto of miscontactos">
+    {{ contacto | json  }}
+  </li>
+</ul>
+

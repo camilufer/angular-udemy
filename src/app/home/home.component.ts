@@ -7,7 +7,7 @@ import { RopaService } from '../services/ropa.service';
     providers: [RopaService]
 })
 export class HomeComponent {
-    public titulo = "Página principal";
+    public titulo = 'Página principal';
     public listado_ropa: Array<string>;
     public prenda_a_guardar: ('');
     public fecha;
